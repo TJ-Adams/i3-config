@@ -161,5 +161,8 @@ bindsym $mod+shift+x exec i3lock
 # Keybind to make screen capture
 bindsym $mod+shift+s exec maim -s | xclip -selection clipboard -t image/png
 
+# Keybind to use all monitors for one window
+bindsym $mod+shift+f fullscreen toggle global
+
 # Add Wallpaper
 exec_always feh --bg-scale $HOME/Wallpaper.jpg
